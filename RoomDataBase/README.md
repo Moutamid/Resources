@@ -1,0 +1,1 @@
+This repo shows how you can save a data in your local database using RoomDB in this repository we use a single table in the database and how to retrieve the data from database

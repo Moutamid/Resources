@@ -1,0 +1,1 @@
+This repository serves as a guide for implementing a chat-like system design in a RecyclerView adapter.

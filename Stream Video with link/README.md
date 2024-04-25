@@ -1,0 +1,1 @@
+This repo shows how you can implement a Video player in your application and play a video using streaming link or you can also play a local video too

@@ -1,0 +1,1 @@
+This repo shows how to find out who is calling you on sim and also tells what is the state of the call for example the call is missed call or ringing or ended or is the call is ongoing call.

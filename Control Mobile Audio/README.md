@@ -1,0 +1,1 @@
+This class is used for controlling the device audio such as silent the device or increase the volumn or lower the volumn

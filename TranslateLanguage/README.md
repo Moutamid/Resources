@@ -1,0 +1,1 @@
+This repo shows how you can implement a Translator API without any client ID or server key you can translate any text in any language,

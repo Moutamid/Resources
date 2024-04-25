@@ -1,0 +1,1 @@
+This repo shows how you can send anyone with their num a message on the sim it also works if the text is really long or short

@@ -1,0 +1,1 @@
+This repo shows how to find out who is sending you message on sim and how to retrieve the content of the message.

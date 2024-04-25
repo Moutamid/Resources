@@ -1,0 +1,2 @@
+This repo is used for downloading the file if you need to download the file from firebase use the FirebaseStorageDownloader reference 
+if you need to download from any other source you can use PRDownloader reference.
