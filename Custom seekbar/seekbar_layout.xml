@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".fragments.CalculatorFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.zhouyou.view.seekbar.SignSeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                app:ssb_max="50"
+                app:ssb_min="0"
+                app:ssb_progress="0"
+                app:ssb_second_track_color="@color/green"
+                app:ssb_section_count="10"
+                app:ssb_section_text_color="@color/black"
+                app:ssb_section_text_position="below_section_mark"
+                app:ssb_seek_by_section="true"
+                app:ssb_show_progress_in_float="true"
+                app:ssb_show_section_mark="true"
+                app:ssb_show_section_text="true"
+                app:ssb_show_sign="true"
+                app:ssb_show_thumb_text="false"
+                app:ssb_sign_arrow_height="0dp"
+                app:ssb_sign_arrow_width="0dp"
+                app:ssb_sign_border_color="@color/green"
+                app:ssb_sign_border_size="1dp"
+                app:ssb_sign_color="@color/green"
+                app:ssb_sign_height="22sp"
+                app:ssb_sign_show_border="true"
+                app:ssb_sign_text_color="@color/white"
+                app:ssb_sign_width="35sp"
+                app:ssb_thumb_color="@color/white"
+                app:ssb_thumb_text_color="@color/green"
+                app:ssb_touch_to_seek="false"
+                app:ssb_track_color="@color/grey" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

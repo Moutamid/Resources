@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".fragments.NumberFragment">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_showFlag="true"
+                android:gravity="center"
+                app:ccp_showNameCode="false"
+                android:background="@drawable/bottom_stroke"
+                app:ccp_padding="12dp"
+                android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

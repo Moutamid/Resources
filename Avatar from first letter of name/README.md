@@ -1,0 +1,1 @@
+Android library to generate image avatar from the first letter of a username. Letter avatar like Gmail

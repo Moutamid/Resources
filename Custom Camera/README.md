@@ -1,0 +1,2 @@
+Using this repository you can create your own camera preview and by clicking on the button capture the image with high quality result. and saved the image to the desired file path
+you can then pass that path to next activity or the imageView to preview the image within the app or just save for later use

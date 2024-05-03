@@ -1,0 +1,3 @@
+In this repository we use a AccessibilityService to detect whether the TikTok app is opened or not and if opend detect each scroll user did to watch the next video
+and on every scroll click on the middle of the screen to pause the video so you. With this repository you learn how to detect any app which is open or not with its package name
+and whether it is scrollable or not and if it is how to detect the scroll even by user also how to implement a auto click feature by programming.
