@@ -1,0 +1,1 @@
+This repository show how to check if device is connected to the internet or not

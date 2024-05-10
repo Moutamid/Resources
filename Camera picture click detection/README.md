@@ -1,0 +1,1 @@
+This repository detects when the user click the image from the device camera app and gives the path of the clicked image

@@ -1,0 +1,1 @@
+This repository show how to create a gateway of a Stripe to send money from one user to other user using there Stripe bank account number

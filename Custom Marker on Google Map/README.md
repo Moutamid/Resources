@@ -1,0 +1,1 @@
+This repository show how to add a custom marker on a google map using a custom xml layout
