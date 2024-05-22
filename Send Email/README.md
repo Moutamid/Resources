@@ -1,0 +1,1 @@
+The NetworkTask class allows Android apps to send emails using Gmail. It handles the process of setting up the email, including specifying recipients, composing the message, and sending it in the background.

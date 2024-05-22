@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpinningWheel</string>
+    <string-array name="dummy">
+        <item>Pasta</item>
+        <item>Pizza</item>
+        <item>Chocolate</item>
+    </string-array>
+</resources>

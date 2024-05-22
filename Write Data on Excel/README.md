@@ -1,0 +1,1 @@
+This code handles permissions, checks external storage availability, creates a folder, and writes data to a CSV file within that folder. It's a basic example demonstrating permission handling and file manipulation in an Android application
