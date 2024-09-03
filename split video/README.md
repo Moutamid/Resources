@@ -1,0 +1,1 @@
+This repository show ow you can split videos into two or 3 parts depending on the length of the video this code split the video in 30 sec parts or 15 sec parts you can change that accordingly

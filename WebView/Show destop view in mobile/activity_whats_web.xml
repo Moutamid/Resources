@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ui.WhatsWebActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="6dp"
+            android:layout_centerVertical="true"
+            app:cardBackgroundColor="@color/card"
+            android:outlineAmbientShadowColor="@color/card"
+            android:outlineSpotShadowColor="@color/card">
+
+            <ImageView
+                android:layout_width="28sp"
+                android:layout_height="28sp"
+                android:layout_margin="8sp"
+                android:src="@drawable/round_arrow_back_24"
+                app:tint="@color/icon" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/wa_web"
+            android:layout_toRightOf="@id/backbtn"
+            android:textSize="24sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"
+            android:layout_marginEnd="12sp" />
+
+    </RelativeLayout>
+
+    <im.delight.android.webview.AdvancedWebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_weight="1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="210sp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="12sp"
+        android:layout_margin="20sp"
+        app:cardBackgroundColor="@color/background"
+        app:cardElevation="0sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <ProgressBar
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_margin="10sp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/please_wait"
+                android:gravity="center"
+                android:textColor="@color/off_white"
+                android:layout_margin="10sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
