@@ -6,33 +6,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:padding="20dp"
+    tools:context=".activities.DummyNotificationActivity">
 
-    <EditText
-        android:id="@+id/senderIDEt"
+    <TextView
+        android:id="@+id/myIdTextview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:hint="sender id" />
+        android:layout_marginTop="40dp"
+        android:text="My id"
+        android:textIsSelectable="true" />
 
     <EditText
-        android:id="@+id/messageEt"
+        android:id="@+id/uidEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:hint="message" />
+        android:layout_marginTop="40dp"
+        android:hint="Enter text" />
+
+    <EditText
+        android:id="@+id/textEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter text" />
 
     <Button
         android:id="@+id/sendBtn"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="send" />
 
-    <TextView
-        android:id="@+id/idTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="20dp" />
 
 </LinearLayout>
